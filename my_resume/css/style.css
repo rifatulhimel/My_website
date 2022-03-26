@@ -1,0 +1,150 @@
+*{
+    padding:2%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: slategrey;
+
+}
+img{
+    border-radius: 50%;
+}
+
+.box{
+    width: 95%;
+    height: 100vh;
+    background-color: white;
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 85%;
+    margin: 2rem auto;
+    background-color: rgb(78, 74, 74);
+    display: grid;
+}
+.top-section{
+    height: 100%;
+    background-color: gainsboro;
+}
+.bottom-section{
+    background-color: snow;
+    height: 100%;
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-left: 65%;
+    
+}
+.leftsection{
+    margin-left: 33%;
+}
+.profile{
+    width: 100%;
+}
+.sub-title{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ins-title{
+    font-size:small;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 5px;
+}
+.right-title{
+    padding: 1rem 0.5rem;
+    color:rgb(74, 77, 80);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    padding-bottom: 0.2rem;
+}
+
+.para1{
+    text-align: justify;
+}
+.education{
+    padding: 0.5rem 0.5rem;
+    color:rgb(74, 77, 80);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    padding-bottom: 0.001rem;
+
+}
+
+.linking{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(151, 197, 199), rgb(92, 85, 88));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+    font-size: small;
+}
+.research{
+    padding: 0.5rem 0.5rem;
+    color:rgb(74, 77, 80);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    padding-bottom: 0.001rem;
+
+}
+.testscore{
+    padding: 0.5rem 0.5rem;
+    color:rgb(74, 77, 80);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    padding-bottom: 0.001rem;
+}
+.link{
+    text-align: center;
+    padding: 5%;
+}
+.link-button1 {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(101, 105, 172), rgb(26, 112, 105));
+    padding: 20px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+    font-size: small;
+    width: 65%;
+    font-family:'Times New Roman', Times, serif
+}
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+.bi-arrow-up-short::before {
+    content: "\f145";
+}
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
