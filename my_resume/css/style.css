@@ -148,3 +148,14 @@ img{
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
